@@ -19,7 +19,7 @@ class Snake:
 
 
     def add_seg(self, pos):
-        new_seg = Turtle("circle")
+        new_seg = Turtle("square")
         new_seg.color("White")
         new_seg.penup()
         #new_seg.shapesize(stretch_len=1.5, stretch_wid=1.5)
